@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+
+  mkdocs:
+    build: .
+    image: mkdocs:latest
+    restart: always
+    container_name: mkdocs
+    volumes:
+      - ./mkdocs:/mkdocs
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    logging:
+      options:
+        max-size: 1g

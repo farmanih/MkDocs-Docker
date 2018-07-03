@@ -1,0 +1,3 @@
+site_name: Mkdocs A Simple  Documentation Serivce
+theme:
+  name: 'material'
