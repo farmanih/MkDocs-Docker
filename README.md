@@ -12,4 +12,4 @@ docker-compose up --build -d
 - [x] Docker File
 - [x] Compose File
 - [ ] Add More Themes 
-- [ ] Add More Limitation For Container
+- [x] Add More Limitation For Container
