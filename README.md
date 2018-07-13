@@ -10,7 +10,7 @@ docker-compose up --build -d
 
 ### TODO 
 
-- [*] Docker File
-- [*] Compose File
+- [x] Docker File
+- [x] Compose File
 - [ ] Add More Themes 
 - [ ] Add More Limitation For Container
